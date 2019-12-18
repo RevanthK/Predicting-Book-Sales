@@ -1,8 +1,6 @@
 '''
 Revanth Korrapolu
 December 12, 2019
-TODO:
-Add columns:
 
 F_tot: Cumulative wiki views of Author
 t_F: Longevity of Authors views
@@ -68,13 +66,11 @@ def main():
     # 1. Preprocessing - Data Collection + aggregation
 
     # 1.1 - get WikipageViews
-    # start = time.time()
-    # print("test")
-    # getWikiPageViews(book_info)
-    # end = time.time()
-    # print(end - start)
-
-
+    start = time.time()
+    print("Start")
+    getWikiPageViews(book_info)
+    end = time.time()
+    print(end - start)
 
 
 if __name__ == "__main__":
